@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #apt
 apt-get update
 apt-get upgrade
