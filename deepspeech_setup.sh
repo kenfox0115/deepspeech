@@ -3,7 +3,7 @@
 cd /
 
 apt-get update
-apt-get upgrade
+apt-get upgrade -y
 
 
 apt-get install software-properties-common -y
