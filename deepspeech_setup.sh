@@ -22,5 +22,5 @@ apt-get install python-pip -y
 pip install -r requirements.txt
 pip install tensorflow
 pip install deepspeech
-cd /DeepSpeech/native_cliesnt
+cd /DeepSpeech/native_client
 python util/taskcluster.py --target .
