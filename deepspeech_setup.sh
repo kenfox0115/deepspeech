@@ -19,6 +19,8 @@ cd Deepspeech
 git lfs fetch
 git lfs checkout
 apt-get install python-pip -y
+pip install -r requirements.txt
 pip install tensorflow
 pip install deepspeech
+cd /DeepSpeech/native_cliesnt
 python util/taskcluster.py --target .
