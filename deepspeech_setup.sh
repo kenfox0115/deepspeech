@@ -23,4 +23,4 @@ pip install -r requirements.txt
 pip install tensorflow
 pip install deepspeech
 cd /DeepSpeech/native_client
-python util/taskcluster.py --target .
+python /DeepSpeech/util/taskcluster.py --target .
