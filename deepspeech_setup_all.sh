@@ -22,5 +22,6 @@ apt-get install python-pip -y
 pip install --upgrade pip
 pip install -r /DeepSpeech/requirements.txt
 pip install deepspeech
+pip install --upgrade deepspeech
 cd /DeepSpeech/native_client
 python /DeepSpeech/util/taskcluster.py --target .
