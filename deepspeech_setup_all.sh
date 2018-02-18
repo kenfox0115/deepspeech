@@ -5,6 +5,7 @@ cd /
 apt-get update
 apt-get upgrade -y
 
+apt-get install ffmpeg -y
 
 apt-get install software-properties-common -y
 add-apt-repository ppa:git-core/ppa -y
