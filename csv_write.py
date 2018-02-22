@@ -8,11 +8,10 @@ writer = csv.writer(outfile, delimiter=',', quotechar='"', escapechar='\\', quot
 
 for filename in os.listdir(directory):
 	myfile = os.path.join(directory, filename)
-	#print(myfile)
+	filename = str(myfile)
 	filesize = os.path.getsize(myfile)
-	#print(filesize)
 	str_filesize = str(filesize)
-	#print(str_filesize)
-	writer.writerow([("%s,%s"%(myfile, str_filesize))])
-	#print([("%s,%s"%(myfile, str_filesize))])
+	row = [filename, str_filesize]
+	writer.writerow(row)
+	print('Wrote'+str(row))
 	continue
