@@ -1,8 +1,8 @@
 import csv
 import os
 
-directory = ('/home/ken/deepspeech')
-outfile = open('output.csv', 'wb')
+directory = ('/mnt/hgfs/shared/training_data/wav')
+outfile = open('dts_traning.csv', 'wb')
 writer = csv.writer(outfile, delimiter=',', quotechar='"', escapechar='\\', quoting=csv.QUOTE_NONE)
 
 

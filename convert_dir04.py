@@ -1,10 +1,10 @@
 import os
 
-directory = '/mnt/hgfs/shared'
+directory = '/mnt/hgfs/shared/training_data/mov/MP4'
 
 
-for filename in os.listdir('/mnt/hgfs/shared'):
-    if filename.endswith(".mov") or filename.endswith(".mp4"): 
+for filename in os.listdir(directory):
+    if filename.endswith(".mov") or filename.endswith(".mp4"):
         file_name = os.path.join(directory, filename)
 	stripped_name = os.path.basename(file_name).split('.')[0]
 	output_name = directory+"/"+stripped_name+".wav"
