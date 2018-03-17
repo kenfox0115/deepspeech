@@ -15,6 +15,7 @@ python -u DeepSpeech.py \
   --test_batch_size 1 \
   --n_hidden 494 \
   --epoch 10 \
+  --validation_step 5 \
   --checkpoint_dir /home/ken/deepspeech/checkpoint/ \
   "$@"
 
