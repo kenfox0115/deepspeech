@@ -9,13 +9,13 @@ python -u DeepSpeech.py \
   --train_files /home/ken/deepspeech/mnt/hgfs/shared/training_data/wav/dts_traning.csv \
   --dev_files /home/ken/deepspeech/mnt/hgfs/shared/training_data/wav/dts_traning.csv \
   --test_files /home/ken/deepspeech/mnt/hgfs/shared/training_data/wav/dts_traning.csv \
-  ----initialize_from_frozen_model /mnt/hgfs/shared/models/output_graph.pb
+  ----initialize_from_frozen_model /DeepSpeech/models/output_graph.pb
   --train_batch_size 1 \
   --dev_batch_size 1 \
   --test_batch_size 1 \
   --n_hidden 494 \
   --epoch 10 \
-  --checkpoint_dir \
+  --checkpoint_dir /home/ken/deepspeech/checkpoint/ \
   "$@"
 
 
