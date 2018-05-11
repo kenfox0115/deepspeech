@@ -1,12 +1,17 @@
 Download cuda 9.1
 
+Apt-get update and upgrade
+
+Disable Nouveau
+https://askubuntu.com/questions/799184/how-can-i-install-cuda-on-ubuntu-16-04
+
 Downgrade kernel version:
 https://devtalk.nvidia.com/default/topic/1028566/cuda-setup-and-installation/cuda-9-1-install-fail-with-ubuntu-16-04-kernel-version-4-13-0-26/
 
 Switch off of Nvidia drivers in GUI
 
 Exit x:
-ctrl+alt+f1
+ctrl+alt+f2
 *systemd service lightroomdm stop
 sudo init 3
 
