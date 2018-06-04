@@ -1,0 +1,7 @@
+ 
+ #get these added to path permanently
+ export PATH=/usr/local/cuda-8.0/bin:$PATH
+ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
+ 
+ #run infereance command format
+ deepspeech /ken/home/Downloads/models/output_graph.pb /home/ken/Downloads/audio/2830-3980-0043.wav /ken/home/Downloads/models/alphabet.txt
